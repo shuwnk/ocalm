@@ -1,0 +1,23 @@
+# dune exec to_do
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/mhd/.cache/dune/db
+# Workspace root: /home/mhd/Programs/code/ocalm/firsttry/to_do
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/home/mhd/Programs/code/ocalm/firsttry/to_do/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /usr/bin/ocamlc.opt -config > /tmp/dune_130167_output

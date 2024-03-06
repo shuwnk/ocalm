@@ -1,0 +1,4 @@
+(lang dune 3.14)
+(name to_do)
+(sections (lib .) (bin ../../bin))
+(files (lib (META dune-package opam)) (bin (to_do)))
